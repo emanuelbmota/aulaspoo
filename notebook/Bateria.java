@@ -14,6 +14,7 @@ public class Bateria{
         
     }
 
+    // metodo para carregar a bateria se for menor que a carga atual
     boolean carregar(double c){
 
         if ((this.porcentagem+c) <= this.carga){
@@ -26,10 +27,10 @@ public class Bateria{
             return(false);
         }
     }
-
+    // metodo para trocar a bateria se a carga for  = 0
     boolean trocarbat(){
 
-        if(this.porcentagem <= 0){
+        if(this.porcentagem == 0 || this.uso > this.porcentagem ){
 
             this.porcentagem = 100;
             return(true);
