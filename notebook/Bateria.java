@@ -27,7 +27,7 @@ public class Bateria{
             return(false);
         }
     }
-    // metodo para trocar a bateria se a carga for  = 0
+    // metodo para trocar a bateria se a carga for 0 ou se o tempo de uso for maior que a capacidade da bateria
     boolean trocarbat(){
 
         if(this.porcentagem == 0 || this.uso > this.porcentagem ){
@@ -40,7 +40,7 @@ public class Bateria{
         }
 
     }
-
+    // metodo para indicar a % de bateria utilizada
     boolean tempouso(){
 
         this.hora *= 60;
