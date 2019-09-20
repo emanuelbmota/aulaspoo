@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TesteVariaveis",
+            "request": "launch",
+            "mainClass": "TesteVariaveis",
+            "projectName": "aulaspoo_1bd6e284"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TesteElevador",
+            "request": "launch",
+            "mainClass": "TesteElevador",
+            "projectName": "aulaspoo_1bd6e284"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TesteVar",
+            "request": "launch",
+            "mainClass": "TesteVar",
+            "projectName": "aulaspoo_1bd6e284"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Variaveis",
+            "request": "launch",
+            "mainClass": "Variaveis",
+            "projectName": "aulaspoo_1bd6e284"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TesteLivro",
             "request": "launch",
             "mainClass": "TesteLivro",
