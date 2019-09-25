@@ -1,3 +1,5 @@
+package balde;
+
 public class Balde {
     
     String material;

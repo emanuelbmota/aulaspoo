@@ -1,3 +1,5 @@
+package pessoa;
+
 public class Animal {
     
     private float tamanho;

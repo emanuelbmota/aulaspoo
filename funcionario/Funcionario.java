@@ -1,3 +1,5 @@
+package funcionario;
+
 public class Funcionario {
     
     String nome;

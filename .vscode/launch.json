@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TesteCliente",
+            "request": "launch",
+            "mainClass": "Cliente.TesteCliente",
+            "projectName": "aulaspoo_1bd6e284"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TesteAgencia",
+            "request": "launch",
+            "mainClass": "agencia.TesteAgencia",
+            "projectName": "aulaspoo_1bd6e284"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TesteLivro",
+            "request": "launch",
+            "mainClass": "livro.TesteLivro",
+            "projectName": "aulaspoo_1bd6e284"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TesteVariaveis",
             "request": "launch",
             "mainClass": "TesteVariaveis",

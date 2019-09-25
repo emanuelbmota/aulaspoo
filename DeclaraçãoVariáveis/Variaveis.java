@@ -1,4 +1,6 @@
-public class Var {
+package DeclaraçãoVariáveis;
+
+public class Variaveis {
     
     private String name;
     private int idade;
@@ -6,7 +8,7 @@ public class Var {
     private char sexo;
     private double salario;
 
-    Var(String name, int idade, String RG, char sexo, double salario){
+    Variaveis(String name, int idade, String RG, char sexo, double salario){
 
         this.name = name;
         this.idade = idade;

@@ -1,3 +1,5 @@
+package humano;
+
 public class TesteHumano {
     
     public static void main(String[] args) {

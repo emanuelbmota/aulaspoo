@@ -1,3 +1,5 @@
+package elevador;
+
 public class TesteElevador {
 
     public static void main(String[] args) {

@@ -1,4 +1,6 @@
-public class TesteFunc {
+package funcionario2;
+
+public class TesteFunc2 {
 
     public static void main(String[] args) {
         

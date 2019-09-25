@@ -1,3 +1,5 @@
+package humano;
+
 public class Humano {
     
     private String nome;

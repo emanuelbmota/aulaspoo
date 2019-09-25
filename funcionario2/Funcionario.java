@@ -1,3 +1,5 @@
+package funcionario2;
+
 public class Funcionario {
     
     private int codFUncionario;

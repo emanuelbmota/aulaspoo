@@ -1,3 +1,5 @@
+package elevador;
+
 public class Elevador {
     
     private int totalAndar;
