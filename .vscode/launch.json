@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TesteProduto",
+            "request": "launch",
+            "mainClass": "produto.TesteProduto",
+            "projectName": "aulaspoo_1bd6e284"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TesteConta",
+            "request": "launch",
+            "mainClass": "conta.TesteConta",
+            "projectName": "aulaspoo_1bd6e284"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TesteCliente",
             "request": "launch",
             "mainClass": "Cliente.TesteCliente",
