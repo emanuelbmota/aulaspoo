@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TesteHumano",
+            "request": "launch",
+            "mainClass": "humano.TesteHumano",
+            "projectName": "GitHub_14b2ab45"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestaC",
+            "request": "launch",
+            "mainClass": "aula07102019.TestaC",
+            "projectName": "GitHub_14b2ab45"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - C",
+            "request": "launch",
+            "mainClass": "aula07102019.C",
+            "projectName": "GitHub_14b2ab45"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TesteAnimal",
+            "request": "launch",
+            "mainClass": "pessoa.TesteAnimal",
+            "projectName": "GitHub_14b2ab45"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TesteProduto",
             "request": "launch",
             "mainClass": "produto.TesteProduto",

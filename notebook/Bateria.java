@@ -1,3 +1,5 @@
+package notebook;
+
 public class Bateria{
 
     double porcentagem;

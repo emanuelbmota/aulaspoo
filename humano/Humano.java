@@ -35,21 +35,22 @@ public class Humano {
     }
     
     public String analisaIMC(){
+        double imc = calcIMC();
         
-        if (calcIMC() <= 18.5){
+        if (imc < 18.5){
             return ("Abaixo do peso");
         }
-        else if (calcIMC() >= 18.5 && calcIMC() < 25){
+        else if (imc >= 18.5 && imc < 25){
             return ("Peso normal");
         }
         
-        else if (calcIMC() >= 25 && calcIMC() < 30){
+        else if (imc >= 25 && imc < 30){
             return("Sobrepeso");
         }
-        else if (calcIMC() >= 30 && calcIMC() < 35){
+        else if (imc >= 30 && imc < 35){
             return("Obesidade grau 1");
         }
-        else if (calcIMC() >= 35 && calcIMC() < 40){
+        else if (imc >= 35 && imc < 40){
             return("Obesidade grau 2");
         }
         else{
