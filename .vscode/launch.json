@@ -2,6 +2,33 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TesteEstoque",
+            "request": "launch",
+            "mainClass": "newexercicio.TesteEstoque",
+            "projectName": "aulaspoo_79dcecb0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Estoque",
+            "request": "launch",
+            "mainClass": "newexercicio.Estoque",
+            "projectName": "aulaspoo_79dcecb0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TesteElevador",
+            "request": "launch",
+            "mainClass": "elevador.TesteElevador",
+            "projectName": "aulaspoo_79dcecb0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TesteProduto",
+            "request": "launch",
+            "mainClass": "produto.TesteProduto"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TesteCarro",
             "request": "launch",
             "mainClass": "carro.TesteCarro",
