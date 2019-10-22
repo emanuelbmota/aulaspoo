@@ -29,26 +29,18 @@ public class Series{
         int i =0;
 
     if(this.i1 < this.i2){
-            i = this.i1;
-            while(i <= i2){
-                s+= i +";";
-                i+=this.passo;
-                
-        }
-    
-        
+        i = this.i1;
+        while(i <= i2){
+            s+= i +";";
+            i+=this.passo;         
+        }    
     }else{
-            i = this.i1;
-            while(i >= i2){
-                s+= i +";";
-                i-=this.passo;
-                
+        i = this.i1;
+        while(i >= i2){
+            s+= i +";";
+            i-=this.passo;       
         }
-    
     }
-
-
-    
-              return (s);
+    return (s.substring(0, s.length()-1));
     }
 }
