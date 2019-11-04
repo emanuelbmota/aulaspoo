@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TesteFuncionario",
+            "request": "launch",
+            "mainClass": "heranca2.TesteFuncionario",
+            "projectName": "aulaspoo_79dcecb0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TesteSeries",
             "request": "launch",
             "mainClass": "TesteSeries",
