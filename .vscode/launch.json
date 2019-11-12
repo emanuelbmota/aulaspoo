@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TesteImovel",
+            "request": "launch",
+            "mainClass": "imovel.TesteImovel",
+            "projectName": "aulaspoo_ae172408"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TesteFuncionario",
+            "request": "launch",
+            "mainClass": "heranca2.TesteFuncionario",
+            "projectName": "aulaspoo_ae172408"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TesteFuncionario",
             "request": "launch",
             "mainClass": "heranca2.TesteFuncionario",

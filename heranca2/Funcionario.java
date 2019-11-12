@@ -7,6 +7,12 @@ public class Funcionario{
     protected double salario;
 
 
+    Funcionario(String nome, double salario){
+        
+        this.nome=nome;
+        this.salario=salario;
+        
+    }
     public void setMatricula(int matricula){
         this.matricula = matricula;
 
@@ -28,6 +34,10 @@ public class Funcionario{
 
     public double getSalario(){
         return this.salario;
+    }
+
+    public String getNome(){
+        return this.nome;
     }
 
 }
