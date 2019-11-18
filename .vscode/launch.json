@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - testaLivro",
+            "request": "launch",
+            "mainClass": "autor.testaLivro",
+            "projectName": "aulaspoo_79dcecb0"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TesteImovel",
             "request": "launch",
             "mainClass": "imovel.TesteImovel",
