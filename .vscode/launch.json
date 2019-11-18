@@ -4,6 +4,13 @@
             "type": "java",
             "name": "CodeLens (Launch) - testaLivro",
             "request": "launch",
+            "mainClass": "autor2.testaLivro",
+            "projectName": "aulaspoo_79dcecb0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - testaLivro",
+            "request": "launch",
             "mainClass": "autor.testaLivro",
             "projectName": "aulaspoo_79dcecb0"
         },
